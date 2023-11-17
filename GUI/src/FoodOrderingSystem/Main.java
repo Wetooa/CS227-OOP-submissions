@@ -8,13 +8,20 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Main extends  JFrame {
-    private JCheckBox pizzaCheckBox;
-    private JRadioButton noneRadioButton;
-    private JRadioButton a15OffRadioButton;
+    private JCheckBox cPizza;
+    private JRadioButton rbNone;
+    private JRadioButton rb15;
     private JButton btnOrder;
     private JPanel jpanel;
     private JPanel panelOrderGroup;
     private JPanel panelDiscountGroup;
+    private JCheckBox cBurger;
+    private JRadioButton rb5;
+    private JRadioButton rb10;
+    private JCheckBox cFries;
+    private JCheckBox cSoftDrinks;
+    private JCheckBox cTea;
+    private JCheckBox cSundae;
 
     public Main() {
         Map<String, Integer> order = new HashMap<>();
@@ -50,7 +57,7 @@ public class Main extends  JFrame {
                 }
 
                 JOptionPane pane = new JOptionPane();
-                pane.showMessageDialog(null, "Your total is " + total);
+                pane.showMessageDialog(null, "The total price is Php" + total);
 
             }
         });
