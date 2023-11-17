@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="GUI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GUI/out/production/GUI/SimpleCalculator.zip!/" />
+      <root url="jar://$PROJECT_DIR$/GUI/out/production/GUI/LeapYear.zip!/" />
+      <root url="jar://$PROJECT_DIR$/GUI/out/production/GUI/FoodOrderingSystem.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
